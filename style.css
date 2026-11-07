@@ -1,0 +1,37 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(226, 222, 224);
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 100%;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 240%;
+    display: center;
+}
+
+.menu a{
+    background-color: rgb(4, 229, 236);
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+.menu a:hover{
+    color: rgb(5, 5, 5);
+    background-color: rgb(255, 255, 255);
+    transition: all .5s;
+}
