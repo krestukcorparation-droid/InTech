@@ -55,3 +55,23 @@ p{
     background-color: rgb(255, 255, 255);
     transition: all .5s;
 }
+
+.app_2 a{
+    background-color: rgb(4, 229, 236);
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.app_2{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+.app_2 a:hover{
+    color: rgb(5, 5, 5);
+    background-color: rgb(255, 255, 255);
+    transition: all .5s;
+}
